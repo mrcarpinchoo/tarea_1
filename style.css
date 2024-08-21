@@ -6,14 +6,20 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: red;
+    color: white;
     line-height: 1.6;
-    margin: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #333;
+    color: white;
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -35,7 +41,7 @@ p {
 }
 
 a {
-    color: #007BFF;
+    color: #FFD700;
     text-decoration: none;
 }
 
@@ -44,8 +50,8 @@ a:hover {
 }
 
 button {
-    background-color: #007BFF;
-    color: white;
+    background-color: #FFD700;
+    color: red;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -53,28 +59,21 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #FFC107;
 }
 
-ul {
-    list-style-type: square;
-    margin-left: 20px;
-}
-
-ol {
-    margin-left: 20px;
+ul, ol {
+    list-style-position: inside;
+    margin-bottom: 15px;
 }
 
 input, textarea {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-textarea {
-    resize: vertical;
+    text-align: center;
 }
 
 footer {
@@ -83,5 +82,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    width: 100%;
 }
 
