@@ -5,4 +5,4 @@ Tarea 1
 - Guillermo Alejandro Romero Vázquez:
 - César Guillermo Sainz Hinojosa:
 - Rodrigo Martín del Campo Arroyo: creación y modificación de style.css
-- Nicolás González Pérez:
+- Nicolás González Pérez: creación y modificación de page_a.html
